@@ -1,0 +1,82 @@
+.team-section {
+    background-color: #f5f4fa;
+}
+.team-list {
+    margin-top: -30px;
+    @media screen and (min-width: 768px) {
+       display: flex;
+       flex-wrap: wrap;
+       margin-left: -30px;
+     }
+}
+.team-item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    @media screen and (min-width: 768px) {
+        width: calc(100% / 2 - 30px);
+        margin-left: 30px;
+    }
+    @media screen and (min-width: 1200px) {
+        width: calc(100% / 4 - 30px);
+}
+}
+
+.team-cards {
+    padding: 30px 0px 24px 0px;
+   
+    @media screen and (min-width: 1200px) {
+        padding: 30px 0px;
+    }
+}
+.photo-title {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+}
+.photo-text {
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.team-soc-list {
+    display: flex;
+    justify-content: center;
+}
+.team-soc {
+    display: flex;
+}
+.team-soc + .team-soc {
+    margin-left: 10px;
+}
+.team-soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #afb1b8;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    }
+}
+
+.icon-soc-team {
+    fill: currentColor;
+    &:hover {
+        fill: currentColor;
+    }
+}

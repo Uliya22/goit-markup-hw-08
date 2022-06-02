@@ -1,0 +1,33 @@
+.work {
+    padding-bottom: 94px;
+    @media screen and (max-width: 1200px) {
+        display: none;
+    }
+}
+.work-list {
+    display: flex;
+}
+.work-list .work-list__item:not(:last-child) {
+   margin-right: 30px;
+}
+.work-list__item {
+    position: relative;
+}
+.work-list__container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+.work-list__text {
+font-weight: 700; 
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--light-text-color);
+}

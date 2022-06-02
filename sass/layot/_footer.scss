@@ -1,0 +1,203 @@
+.footer {
+    padding: 60px 15px; 
+    background-color: var(--dark-bg-color);
+    @media screen and (min-width: 1200px) {
+        padding: 60px 0;
+    }
+}
+.footer-container {
+    @media screen and (min-width: 1200px) {
+        display: flex; 
+        align-items: baseline;
+    }
+}
+.footer-tab-container {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.footer-contact-container {
+    margin-bottom: 60px;
+    text-align: center;
+    @media screen and (min-width: 768px) {
+        margin-right: 165px;
+    }
+    @media screen and (min-width: 1200px) {
+        margin-right: 70px;
+        text-align: start;
+        margin-bottom: 0;
+    }
+   
+}
+.logo-link {
+    display: block;
+    margin-bottom: 20px;
+}
+.footer-logo {
+    color: #FFFFFF;
+    
+}
+
+address {
+    font-style: normal;
+}
+
+.footer-item {
+    height: 21px;
+    .footer-list &:not(:last-child) {
+        margin-bottom: 9px;
+    }
+}
+.footer-link {
+    font-size: 14px;
+    line-height: 1.71px;
+    color: var(--light-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+}
+}
+
+.footer-contact {
+    font-size: 14px;
+    line-height: 1.71px;
+    color: rgba(255, 255, 255, 0.6);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
+    &:hover,
+    &:focus {
+    color: var(--accent-color)
+}
+}
+
+.footer-title {
+    font-size: 14px;
+    height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: var(--light-text-color);
+}
+.footer-soc-container {
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+        margin-right: 93px;
+        text-align: start;
+    }
+}
+.footer-soc-list {
+    display: inline-flex;
+    margin-bottom: 60px;
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0;
+    }
+}
+.footer-soc-item {
+    display: flex;
+    
+}
+.footer-soc-item + .footer-soc-item {
+    margin-left: 10px;
+}
+.footer-soc-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: var(--timing-function);
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+}
+}
+
+.icon-soc-footer {
+    fill: #FFFFFF;
+}
+.footer-form-container {
+   text-align: center;
+   @media screen and (min-width: 1200px) {
+       text-align: start;
+   }
+}
+.footer-form-title {
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--light-text-color);
+}
+.footer-label {
+    position: absolute;
+    margin-left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-object-container {
+    @media screen and (min-width: 1200px) {
+        display: flex;
+    }
+}
+.footer-input-container {
+    position: relative;
+}
+.footer-input {
+    max-width: 450px;
+    height: 50px;
+    padding-left: 79px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.6);
+    @media screen and (min-width: 1200px) {
+        width: 358px;
+    }
+}
+.footer-input-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--light-text-color);
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    @media screen and (min-width: 1200px) {
+        margin-top: 0;
+        margin-left: 12px;
+    }
+}
+.icon-input-btn {
+    margin-left: 10px;
+}
