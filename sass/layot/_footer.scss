@@ -12,18 +12,16 @@
     }
 }
 .footer-tab-container {
+    margin-bottom: 60px;
     @media screen and (min-width: 768px) {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content:space-around;
     }
 }
 .footer-contact-container {
     margin-bottom: 60px;
     text-align: center;
-    @media screen and (min-width: 768px) {
-        margin-right: 165px;
-    }
+   
     @media screen and (min-width: 1200px) {
         margin-right: 70px;
         text-align: start;
@@ -88,13 +86,11 @@ address {
     text-align: center;
 
     @media screen and (min-width: 1200px) {
-        margin-right: 93px;
         text-align: start;
     }
 }
 .footer-soc-list {
     display: inline-flex;
-    margin-bottom: 60px;
     @media screen and (min-width: 1200px) {
         margin-bottom: 0;
     }
@@ -131,6 +127,7 @@ address {
    text-align: center;
    @media screen and (min-width: 1200px) {
        text-align: start;
+       margin-left: 93px;
    }
 }
 .footer-form-title {
@@ -160,7 +157,7 @@ address {
     position: relative;
 }
 .footer-input {
-    max-width: 450px;
+    width: 450px;
     height: 50px;
     padding-left: 79px;
     font-size: 16px;
